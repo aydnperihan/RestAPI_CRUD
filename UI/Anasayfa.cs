@@ -345,5 +345,10 @@ namespace UI
 
             if(sonuc==true)        dataGridView1.DataSource = await callGetAsyncAPI();
         }
+
+        private void Anasayfa_Load(object sender, EventArgs e)
+        {
+            /////deneme
+        }
     }
 }
